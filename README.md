@@ -1,2 +1,3 @@
 # polymorphism
-polymorphism in pharo, java and c++ examples(with inheritance and without inheritance)
+polymorphism in pharo
+author: Miranda Callo, Edson Pedro
