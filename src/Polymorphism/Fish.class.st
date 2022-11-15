@@ -18,3 +18,11 @@ Fish >> habitat: anObject [
 
 	habitat := anObject
 ]
+
+{ #category : #printing }
+Fish >> printOn: aStream [
+
+	super printOn: aStream.
+	aStream nextPutAll: habitat printString.
+	aStream cr
+]

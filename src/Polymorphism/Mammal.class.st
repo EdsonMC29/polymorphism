@@ -18,3 +18,11 @@ Mammal >> food: anObject [
 
 	food := anObject
 ]
+
+{ #category : #printing }
+Mammal >> printOn: aStream [
+
+	super printOn: aStream.
+	aStream nextPutAll: food printString.
+	aStream cr
+]
